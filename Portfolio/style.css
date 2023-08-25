@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@700&family=Poppins:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@700&family=Poppins:ital,wght@1,300&family=Roboto&display=swap");
+.navbg {
+  background-image: linear-gradient(to right, #c3d5e507, #e3f3f8db);
+  color: #5d4545;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.fixed-top {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.homepic {
+  border-radius: 50%;
+  width: 500px;
+
+  padding-top: 60px;
+}
+.pb-5 {
+  padding-bottom: 3rem !important;
+}
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.contact-logo {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.resume {
+  border-radius: 50px;
+  font-family: "Poppins", "sans-serif";
+  font-size: larger;
+}
+.bgimage {
+  height: 100vh;
+  background: url(cropped.png);
+  background-size: cover;
+  position: relative;
+
+  background-size: cover;
+  position: relative;
+}
+@media screen and (max-width: 850px) {
+  .hero-text {
+    padding: 10%;
+  }
+}
+.card-group {
+  padding-top: 20px;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #0e0f0e;
+  padding-left: 16%;
+  font-family: "Poppins", "sans-serif";
+}
+.hero_title {
+  font-size: 64px;
+  font-weight: bold;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.d-block {
+  display: block !important;
+}
+.text-center {
+  text-align: center !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.contact-icon:hover {
+  transform: scale(1.18);
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+h6 {
+  font-size: 1rem;
+}
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.box {
+  font-family: "Poppins", "sans-serif";
+  border-right: 0px solid;
+  border-bottom: 0px solid;
+  border-radius: 25px;
+  box-shadow: 5px 1px 18px #8e8686ca;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.custom-edu-logo {
+  max-width: 75px;
+  max-height: 75px;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.custom-edu {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.proj:hover {
+  transform: scale(1.1);
+}
+img,
+svg {
+  vertical-align: middle;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .content img {
+  height: auto;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+.content {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.text h1 {
+  color: #ffcc74;
+  font-size: 85px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.text p {
+  color: #c0c4d6;
+  font-size: 18px;
+}
+@media screen and(max-width: 957px) {
+  .about {
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+  }
+}
+@media screen and (max-width: 957px) {
+  .about .content img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 16px;
+  }
+  .text h1 {
+    font-size: 30px;
+    margin-left: 88px;
+    margin-bottom: 25px;
+    padding-top: 24px;
+  }
+  .about .content p {
+    font-size: 14px;
+  }
+}
+.contact-icon:hover{
+    transform: translateY(-10px);
+}
