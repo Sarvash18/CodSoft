@@ -1,2 +1,2 @@
 # CodSoft
-My Internship Repo
+Landing Page
